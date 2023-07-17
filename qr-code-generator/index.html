@@ -1,0 +1,31 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>OR Code Generator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <p>Enter your text or URL</p>
+            <input id="textQr" type="text" placeholder="Text or URL" >
+            <div id="imgBox">
+                <img src="" id="imgCode" >
+            </div>
+            <button onclick="QrGenerate()">Generate QR Code</button>
+
+        </div>
+        <script>
+            let imgBox= document.getElementById("imgBox")
+            let imgCode= document.getElementById("imgCode")
+            let textQr= document.getElementById("textQr")
+            function QrGenerate(){
+                imgCode.src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data="+textQr.value
+
+            }
+        </script>
+
+
+
+    </body>
+</html>
