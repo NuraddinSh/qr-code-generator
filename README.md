@@ -11,7 +11,8 @@ In this project, we will look at generating QR code with the help of a JavaScrip
 ![image](https://github.com/NuraddinSh/qr-code-generator/assets/106424297/f8c6d0da-c6ce-49a7-94db-346df6caf01d)
 
 
-![image](https://github.com/NuraddinSh/qr-code-generator/assets/106424297/8cb44d7e-be43-4884-90a3-4ab27f1534ff)
+![image](https://github.com/NuraddinSh/qr-code-generator/assets/106424297/bd047eb4-5495-4364-93e4-3e9fbf24976b)
+
 
 
 
